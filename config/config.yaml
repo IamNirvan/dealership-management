@@ -1,0 +1,11 @@
+log:
+  level: debug
+  methods: false
+database:
+  user: postgres
+  password: shalin123
+  host: localhost
+  port: 5432
+  db_name: dealership_management
+  ssl_mode: disable
+  table_name: vehicles
