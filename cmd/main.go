@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	app "github.com/dealership-management/internal"
+)
 
 func main() {
-	fmt.Println("Yeah buddy!!")
+	app.Start()
 }
